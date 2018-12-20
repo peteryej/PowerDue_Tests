@@ -8,4 +8,4 @@ Make sure PowerDue LEDs, WiFi, LoRa functions correctly. The testing scripts are
 ## Test Instructions
 1. Flash tcpClient_LoRaReceiver.ino found in the tcpClient_LoRaReceiver folder onto one PowerDue board.
 2. Flash tcpServer_LoRaSend.ino found in the tcpServer_LoRaSend folder onto another PowerDue board.
-3. Open the serial target port that you flashed the tcpServer_LoRaSend code. You should see the printout of "test message" being received for about 7 times with one second interval in between. It shows that the two PowerDues' LEDs, WiFi and LoRa are function correctly.  
+3. Open the serial target port that you flashed the tcpServer_LoRaSend code. You should see the printout of "test message" being received for about 7 times with one second interval in between. It shows that the two PowerDues' LEDs, WiFi and LoRa are function correctly. One example is shown below.![example](https://github.com/peteryej/PowerDue_Tests/blob/master/example_printout.jpg)
