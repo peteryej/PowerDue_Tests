@@ -1,8 +1,8 @@
 # Test PowerDue Functionalities
-Make sure PowerDue LEDs, WiFi, LoRa functions correctly. The testing scripts in tcpServer_LoRaSend and tcpClient_LoRaReceiver folders. As the name describes, one script is to set up a TCP server and send LoRa messages, and the other script is to set up a TCP client and receives the LoRa message. The LoRa message is sent from the TCP Server, and then it's received from the TCP client through the WiFi communication. During the process, LED blinks on and off to indicate when the message is sent and received. Specific instructions are included below.
+Make sure PowerDue LEDs, WiFi, LoRa functions correctly. The testing scripts are in tcpServer_LoRaSend and tcpClient_LoRaReceiver folders. As the name describes, one script is to set up a TCP server and send LoRa messages, and the other script is to set up a TCP client and receives the LoRa message. The LoRa message is sent from the TCP Server, and then it's received from the TCP client through the WiFi communication. During the process, LED blinks on and off to indicate when the message is sent and received. Specific instructions are included below.
 
 ## Prerequisites
-- Target, Intrumentation and WiFi firmware is flashed correctly
+- Target, Intrumentation and WiFi firmware is flashed correctly onto the board
 - LoRa library is installed on the Arduino IDE
 
 ## Test Instructions
