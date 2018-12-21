@@ -6,6 +6,6 @@ Make sure PowerDue LEDs, WiFi, LoRa functions correctly. The testing scripts are
 - LoRa library is installed on the Arduino IDE
 
 ## Test Instructions
-1. Flash tcpClient_LoRaReceiver.ino found in the tcpClient_LoRaReceiver folder onto one PowerDue board.
-2. Flash tcpServer_LoRaSend.ino found in the tcpServer_LoRaSend folder onto another PowerDue board.
-3. Open the serial target port that you flashed the tcpServer_LoRaSend code. You should see the printout of "test message" being received for about 7 times with one second interval in between. It shows that the two PowerDues' LEDs, WiFi and LoRa are function correctly. One example is shown below.![example](https://github.com/peteryej/PowerDue_Tests/blob/master/example_printout.jpg)
+1. Flash tcpServer_LoRaSend.ino found in the tcpServer_LoRaSend folder onto a PowerDue board and open the target serial port, then you should see the IP address printed out if the wifi module works correctly.
+2. Change the IP address in the tcpClient_LoRaReceiver.ino file found in the tcpClient_LoRaReceiver folder to the IP address found in the previous step, and then flash it onto another PowerDue board.
+3. On the serial target port that you flashed the tcpServer_LoRaSend code, you should see the printout of "test message" being received for about 7 times with one second interval in between. It shows that the two PowerDues' LEDs, WiFi and LoRa are function correctly. One example is shown below.![example](https://github.com/peteryej/PowerDue_Tests/blob/master/example_printout.jpg)
